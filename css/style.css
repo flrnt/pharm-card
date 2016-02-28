@@ -63,7 +63,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.95);
   padding: 50px 20px;
   overflow: hidden; }
   .pharm-body-filter p {
@@ -135,7 +135,8 @@ body {
     margin-right: 0.5em; }
   .pharm-footer .name {
     font-weight: bold;
-    font-size: 0.85em; }
+    font-size: 0.85em;
+    color: #358ABD; }
   .pharm-footer .pro {
     font-weight: bold;
     font-size: 0.65em;
