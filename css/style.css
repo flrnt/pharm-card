@@ -59,7 +59,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.85);
   padding: 50px 20px;
   overflow: hidden; }
   .pharm-body-filter p {
@@ -75,8 +75,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(253, 253, 253, 0.88);
-    box-shadow: 0px -2px 20px 15px rgba(253, 253, 253, 0.88); }
+    background: rgba(253, 253, 253, 0.85);
+    box-shadow: 0px -2px 20px 20px rgba(253, 253, 253, 0.8); }
     .pharm-body-filter .pharm-body-filter-footer a {
       font-size: 0.6em;
       border: 1px solid rgba(102, 102, 102, 0.34);
