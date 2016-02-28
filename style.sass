@@ -1,0 +1,145 @@
+body
+  background-color: #E9E9E9
+  color: #333
+  font-family: sans-serif
+  height: 100vh
+  display: flex
+  justify-content: space-around
+  align-items: center
+
+.pharm-card
+  background-color: #FDFDFD
+  border-radius: 3px
+  box-shadow: 1px 1px 3px #666
+  width: 300px
+  height: 300px
+  position: relative
+  padding: 10px
+
+.rentability
+  background-color: gold
+  color: #333
+  border-radius: .1em
+  box-shadow: 1px 1px 3px #333
+  padding: .2em .7em .2em .45em
+  font-size: 1.3em
+  font-weight: bold
+  position: absolute
+  z-index: 1
+  top: 1.1em
+  left: -.3em
+  display: flex
+  align-items: center
+  flex-direction: row-reverse
+  .ca
+    margin-left: 1.15em
+    font-size: .45em
+  .euros
+    margin-left: .4em
+.pharm-body
+  font-weight: bold
+  font-size: 1.4em
+  width: 300px
+  height: 260px
+  display: flex
+  position: relative
+  justify-content: center
+  align-items: flex-end
+  border-radius: 2px
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center center
+  &:hover .is-hidden
+    display: block
+.pharm-body-filter
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  background-color: rgba(255, 255, 255, 0.75)
+  padding: 50px 20px
+  overflow: hidden
+
+  p
+    color: rgba(51, 51, 51, 0.6)
+    font-size: .7em
+    font-weight: normal
+  .pharm-body-filter-footer
+    position: absolute
+    bottom: 0
+    right: 0
+    left: 0
+    padding: 0.3em
+    display: flex
+    justify-content: center
+    align-items: center
+    background: rgba(253, 253, 253, 0.88)
+    box-shadow: 0px -2px 20px 15px rgba(253, 253, 253, 0.88)
+    a
+      font-size: 0.6em
+      border: 1px solid rgba(102, 102, 102, 0.34)
+      color: rgba(102, 102, 102, 0.87)
+      padding: 0.2em 0.6em
+      border-radius: 0.2em
+      margin-right: 0.85em
+      text-decoration: none
+      background: white
+      box-shadow: 0px 0px 13px white
+.pharm-infos
+  display: flex
+  justify-content: space-between
+  align-items: center
+  flex-direction: row-reverse
+  margin-top: 1em
+  .city
+    // text-transform: uppercase
+    font-size: .85em
+  .fa-map-marker
+    font-size: 1.12em
+    font-weight: bold
+  .likes
+    a, span
+      color: rgba(128, 128, 128, 0.25)
+      font-size: .9em
+      font-weight: bold
+      margin-right: .35em
+    .fa-eye
+      font-size: 1.2em
+
+.pharm-footer
+  display: flex
+  justify-content: space-between
+  align-items: center
+  width: 310px
+  margin-top: .5em
+  .id
+    width: 200px
+    display: flex
+    align-items: center
+  .avatar
+    background-position: center center
+    background-size: contain
+    width: 30px
+    height: 30px
+    border-radius: 100%
+    border: 2px solid #fff
+    box-shadow: 1px 1px 3px #666
+    margin-right: .5em
+  .name
+    font-weight: bold
+    font-size: .85em
+  .pro
+    font-weight: bold
+    font-size: .65em
+    background-color: red
+    color: white
+    padding: .15em .3em
+    margin-left: .6em
+    border-radius: .2em
+  .date
+    font-size: .8em
+    color: rgba(128, 128, 128, 0.45)
+
+.is-hidden
+  display: none
