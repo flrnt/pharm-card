@@ -8,7 +8,8 @@ body {
  }
 .more, a {
   text-align: center;
-  color: #358abd;
+  color: #C3C3C3;
+  margin-bottom: 0;
 }
 .cards {
   display: flex;
