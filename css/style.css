@@ -74,7 +74,8 @@ body {
   .pharm-body-filter p {
     color: rgba(51, 51, 51, 0.6);
     font-size: 0.7em;
-    font-weight: normal; }
+    font-weight: normal;
+    text-align: justify;}
   .pharm-body-filter .pharm-body-filter-footer {
     position: absolute;
     bottom: 0;
