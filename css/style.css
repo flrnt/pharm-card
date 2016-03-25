@@ -107,7 +107,8 @@ body {
   margin-top: 1em;
   padding: 0 0.8em; }
   .pharm-infos .city {
-    font-size: 0.85em; }
+    font-size: 0.85em;
+    font-weight: bold; }
   .pharm-infos .fa-map-marker {
     font-size: 1.12em;
     font-weight: bold; }
