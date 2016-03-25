@@ -5,13 +5,20 @@ body {
   background-color: #E9E9E9;
   color: #333;
   font-family: sans-serif;
+ }
+.more, a {
+  text-align: center;
+  color: #358abd;
+}
+.cards {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap; }
-
+  flex-wrap: wrap;
+}
 .card {
-  margin: 50px auto; }
+  margin: 50px auto;
+ }
 
 .pharm-card {
   background-color: #FDFDFD;
